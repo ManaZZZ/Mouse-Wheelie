@@ -1,0 +1,47 @@
+{
+    "mousewheelie.configuration.title": "Mouse Wheelie",
+
+    "mousewheelie.configuration.enableSort": "Enable Sort",
+    "mousewheelie.configuration.enableSort.tooltip": "Enable middle-click to sort the container under the cursor.",
+
+    "mousewheelie.configuration.sortMode": "Sort Mode",
+    "mousewheelie.configuration.sortMode.tooltip": "Algorithm used when sorting.",
+
+    "mousewheelie.configuration.enableRefill": "Enable Refill",
+    "mousewheelie.configuration.enableRefill.tooltip": "Automatically refill the main hand and off-hand from the inventory when a stack runs out.",
+
+    "mousewheelie.configuration.enableScrollTransfer": "Enable Scroll Transfer",
+    "mousewheelie.configuration.enableScrollTransfer.tooltip": "Scroll on a slot to move the stack to the other section. Hold Shift for full stack, Ctrl for all matching, Alt to drop.",
+
+    "mousewheelie.configuration.scrollDirectional": "Directional Scroll",
+    "mousewheelie.configuration.scrollDirectional.tooltip": "When enabled, scroll up always moves items toward the upper container (e.g. chest) and scroll down toward the lower container (e.g. player inventory). When disabled, scroll up sends from the hovered section and scroll down pulls items into it.",
+
+    "mousewheelie.configuration.enableModifierClicks": "Enable Modifier Clicks",
+    "mousewheelie.configuration.enableModifierClicks.tooltip": "Enable Ctrl and Alt click modifiers. Ctrl moves all stacks of that item type to the other section; Alt moves exactly one item.",
+
+    "mousewheelie.configuration.enableShiftDrag": "Enable Shift Drag",
+    "mousewheelie.configuration.enableShiftDrag.tooltip": "Hold Shift and drag the left mouse button across slots to quick-move each one to the other section.",
+
+    "mousewheelie.configuration.enableQuickCraft": "Enable Quick Craft",
+    "mousewheelie.configuration.enableQuickCraft.tooltip": "Right-click a recipe in the recipe book to craft directly. Shift+RMB crafts up to a stack; Ctrl+Shift+RMB crafts as much as possible.",
+
+    "mousewheelie.configuration.quickCraftPickup": "Quick Craft Pickup",
+    "mousewheelie.configuration.quickCraftPickup.tooltip": "Where crafted items go. TO_INVENTORY shift-clicks the result into the inventory; TO_CURSOR left-clicks each result onto the cursor (limited by stack size).",
+
+    "mousewheelie.configuration.quickCraftOverflow": "Quick Craft Overflow",
+    "mousewheelie.configuration.quickCraftOverflow.tooltip": "What to do when crafted items don't fit. STOP halts the operation; DROP throws the leftover stack on the ground and continues.",
+
+    "mousewheelie.configuration.quickCraftPickup.TO_INVENTORY": "Inventory",
+    "mousewheelie.configuration.quickCraftPickup.TO_CURSOR": "Cursor",
+
+    "mousewheelie.configuration.quickCraftOverflow.STOP": "Stop",
+    "mousewheelie.configuration.quickCraftOverflow.DROP": "Drop",
+
+    "mousewheelie.configuration.clickDelayTicks": "Click Delay (Ticks)",
+    "mousewheelie.configuration.clickDelayTicks.tooltip": "Delay in ticks between consecutive simulated clicks (e.g. during sort). 0 = instant.",
+
+    "mousewheelie.configuration.sortMode.NONE": "None",
+    "mousewheelie.configuration.sortMode.ALPHABET": "Alphabet",
+    "mousewheelie.configuration.sortMode.QUANTITY": "Quantity",
+    "mousewheelie.configuration.sortMode.RAW_ID": "Raw ID"
+}

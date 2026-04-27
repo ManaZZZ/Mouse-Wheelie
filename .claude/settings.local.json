@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(./gradlew compileJava --no-daemon)",
+      "Bash(grep -o '\"role\":\"user\"[^{]*\"content\":\"[^\"]\\\\{0,500\\\\}' \"C:\\\\Users\\\\awaki\\\\.claude\\\\projects\\\\D--IDEA-Mouse-Wheelie\\\\907f8d5c-dd9a-4eab-ba78-5542498c5866.jsonl\")",
+      "Bash(./gradlew compileJava --quiet)",
+      "Bash(./gradlew compileJava)",
+      "Bash(./gradlew compileJava --rerun-tasks)",
+      "Bash(cd /tmp)",
+      "Bash(jar tf *)",
+      "Bash(javap *)",
+      "Bash(jar xf *)",
+      "Bash(./gradlew jar *)",
+      "Bash(xargs grep *)",
+      "Bash(unzip -l build/libs/mousewheelie-Build-5.jar)",
+      "mcp__ide__getDiagnostics",
+      "Bash(unzip -p build/libs/mousewheelie-Build-5.jar dev/mousewheelie/client/modifier/ModifierClickHandler.class)",
+      "Bash(mkdir -p /tmp/nf-src)",
+      "Bash(unzip -o -q neoforge-21.0.167-sources.jar \"net/neoforged/neoforge/client/event/ScreenEvent*\" -d /tmp/nf-src)",
+      "Bash(unzip -o -q neoforge-21.0.167-sources.jar \"net/neoforged/neoforge/client/ClientHooks.java\" -d /tmp/nf-src)",
+      "Bash(unzip -o -q neoforge-21.0.167-sources.jar \"net/minecraft/client/MouseHandler.java\" \"net/neoforged/neoforge/client/event/InputEvent.java\" -d /tmp/nf-src)",
+      "Read(//tmp/nf-src/net/minecraft/**)",
+      "Bash(mkdir -p /tmp/bus-src)",
+      "Bash(unzip -o -q bus-8.0.1-sources.jar \"net/neoforged/bus/api/IEventBus.java\" \"net/neoforged/bus/EventBus.java\" -d /tmp/bus-src)",
+      "Read(//tmp/bus-src/net/neoforged/bus/api/**)",
+      "Bash(unzip -o -q /c/Users/awaki/.gradle/caches/modules-2/files-2.1/net.neoforged/bus/8.0.1/b7c6825f97ec81128e7bffeca8a3d0e8250f2edb/bus-8.0.1-sources.jar \"net/neoforged/bus/EventBus.java\" \"net/neoforged/bus/SubscribeEventListener.java\" -d /tmp/bus-src)",
+      "Read(//tmp/bus-src/net/neoforged/bus/**)",
+      "Bash(mkdir -p /tmp/mc-src)",
+      "Read(//tmp/**)",
+      "Bash(unzip -o -q \"D:/IDEA/Mouse-Wheelie/build/moddev/artifacts/neoforge-21.0.167-sources.jar\" \"net/minecraft/client/gui/screens/recipebook/*.java\" \"net/minecraft/network/protocol/game/ServerboundPlaceRecipePacket.java\")",
+      "Bash(unzip -o -q \"D:/IDEA/Mouse-Wheelie/build/moddev/artifacts/neoforge-21.0.167-sources.jar\" \"net/minecraft/world/inventory/RecipeBookMenu.java\" \"net/minecraft/world/inventory/CraftingMenu.java\" \"net/minecraft/world/inventory/InventoryMenu.java\" -d /tmp/mc-src)",
+      "Bash(unzip -o -q \"D:/IDEA/Mouse-Wheelie/build/moddev/artifacts/neoforge-21.0.167-sources.jar\" \"net/minecraft/client/gui/components/AbstractWidget.java\" -d /tmp/mc-src)"
+    ]
+  }
+}
