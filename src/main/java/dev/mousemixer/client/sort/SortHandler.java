@@ -1,7 +1,7 @@
-package dev.mousewheelie.client.sort;
+package dev.mousemixer.client.sort;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.client.click.ScreenHelper;
+import dev.mousemixer.Config;
+import dev.mousemixer.client.click.ScreenHelper;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
 import net.minecraft.world.entity.player.Inventory;

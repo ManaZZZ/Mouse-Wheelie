@@ -1,0 +1,47 @@
+{
+    "mousemixer.configuration.title": "Mouse Mixer",
+
+    "mousemixer.configuration.enableSort": "Enable Sort",
+    "mousemixer.configuration.enableSort.tooltip": "Enable middle-click to sort the container under the cursor.",
+
+    "mousemixer.configuration.sortMode": "Sort Mode",
+    "mousemixer.configuration.sortMode.tooltip": "Algorithm used when sorting.",
+
+    "mousemixer.configuration.enableRefill": "Enable Refill",
+    "mousemixer.configuration.enableRefill.tooltip": "Automatically refill the main hand and off-hand from the inventory when a stack runs out.",
+
+    "mousemixer.configuration.enableScrollTransfer": "Enable Scroll Transfer",
+    "mousemixer.configuration.enableScrollTransfer.tooltip": "Scroll on a slot to move the stack to the other section. Hold Shift for full stack, Ctrl for all matching, Alt to drop.",
+
+    "mousemixer.configuration.scrollDirectional": "Directional Scroll",
+    "mousemixer.configuration.scrollDirectional.tooltip": "When enabled, scroll up always moves items toward the upper container (e.g. chest) and scroll down toward the lower container (e.g. player inventory). When disabled, scroll up sends from the hovered section and scroll down pulls items into it.",
+
+    "mousemixer.configuration.enableModifierClicks": "Enable Modifier Clicks",
+    "mousemixer.configuration.enableModifierClicks.tooltip": "Enable Ctrl and Alt click modifiers. Ctrl moves all stacks of that item type to the other section; Alt moves exactly one item.",
+
+    "mousemixer.configuration.enableShiftDrag": "Enable Shift Drag",
+    "mousemixer.configuration.enableShiftDrag.tooltip": "Hold Shift and drag the left mouse button across slots to quick-move each one to the other section.",
+
+    "mousemixer.configuration.enableQuickCraft": "Enable Quick Craft",
+    "mousemixer.configuration.enableQuickCraft.tooltip": "Right-click a recipe in the recipe book to craft directly. Shift+RMB crafts up to a stack; Ctrl+Shift+RMB crafts as much as possible.",
+
+    "mousemixer.configuration.quickCraftPickup": "Quick Craft Pickup",
+    "mousemixer.configuration.quickCraftPickup.tooltip": "Where crafted items go. TO_INVENTORY shift-clicks the result into the inventory; TO_CURSOR left-clicks each result onto the cursor (limited by stack size).",
+
+    "mousemixer.configuration.quickCraftOverflow": "Quick Craft Overflow",
+    "mousemixer.configuration.quickCraftOverflow.tooltip": "What to do when crafted items don't fit. STOP halts the operation; DROP throws the leftover stack on the ground and continues.",
+
+    "mousemixer.configuration.quickCraftPickup.TO_INVENTORY": "Inventory",
+    "mousemixer.configuration.quickCraftPickup.TO_CURSOR": "Cursor",
+
+    "mousemixer.configuration.quickCraftOverflow.STOP": "Stop",
+    "mousemixer.configuration.quickCraftOverflow.DROP": "Drop",
+
+    "mousemixer.configuration.clickDelayTicks": "Click Delay (Ticks)",
+    "mousemixer.configuration.clickDelayTicks.tooltip": "Delay in ticks between consecutive simulated clicks (e.g. during sort). 0 = instant.",
+
+    "mousemixer.configuration.sortMode.NONE": "None",
+    "mousemixer.configuration.sortMode.ALPHABET": "Alphabet",
+    "mousemixer.configuration.sortMode.QUANTITY": "Quantity",
+    "mousemixer.configuration.sortMode.RAW_ID": "Raw ID"
+}

@@ -1,9 +1,9 @@
-package dev.mousewheelie.client.drag;
+package dev.mousemixer.client.drag;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.client.click.ClickQueue;
-import dev.mousewheelie.client.click.ContainerClicker;
-import dev.mousewheelie.client.click.ScreenHelper;
+import dev.mousemixer.Config;
+import dev.mousemixer.client.click.ClickQueue;
+import dev.mousemixer.client.click.ContainerClicker;
+import dev.mousemixer.client.click.ScreenHelper;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;

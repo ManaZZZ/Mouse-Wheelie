@@ -1,9 +1,9 @@
-package dev.mousewheelie.client.scroll;
+package dev.mousemixer.client.scroll;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.client.click.ClickQueue;
-import dev.mousewheelie.client.click.ContainerClicker;
-import dev.mousewheelie.client.click.ScreenHelper;
+import dev.mousemixer.Config;
+import dev.mousemixer.client.click.ClickQueue;
+import dev.mousemixer.client.click.ContainerClicker;
+import dev.mousemixer.client.click.ScreenHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -164,9 +164,7 @@ public final class ScrollTransferHandler {
             Slot slot = menu.slots.get(i);
             if (restrictTo != null && slot.container != restrictTo) continue;
             ItemStack stack = slot.getItem();
-            if (!stack.isEmpty() && ItemStack.isSameItemSameComponents(stack, template)) {
-                out.add(i);
-            }
+            if (!stack.isEmpty() && ItemStack.isSameItemSameComponents(stack, template)) out.add(i);
         }
         return out;
     }
@@ -176,9 +174,7 @@ public final class ScrollTransferHandler {
             Slot slot = menu.slots.get(i);
             if (restrictTo != null && slot.container != restrictTo) continue;
             ItemStack stack = slot.getItem();
-            if (!stack.isEmpty() && ItemStack.isSameItemSameComponents(stack, template)) {
-                return i;
-            }
+            if (!stack.isEmpty() && ItemStack.isSameItemSameComponents(stack, template)) return i;
         }
         return -1;
     }

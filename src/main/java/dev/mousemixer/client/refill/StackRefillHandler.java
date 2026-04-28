@@ -1,8 +1,8 @@
-package dev.mousewheelie.client.refill;
+package dev.mousemixer.client.refill;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.client.click.ClickQueue;
-import dev.mousewheelie.client.click.ContainerClicker;
+import dev.mousemixer.Config;
+import dev.mousemixer.client.click.ClickQueue;
+import dev.mousemixer.client.click.ContainerClicker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.inventory.AbstractContainerMenu;

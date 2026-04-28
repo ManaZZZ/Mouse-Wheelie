@@ -1,4 +1,4 @@
-package dev.mousewheelie.client.click;
+package dev.mousemixer.client.click;
 
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.world.Container;

@@ -1,7 +1,7 @@
-package dev.mousewheelie.client.craft;
+package dev.mousemixer.client.craft;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.client.click.ContainerClicker;
+import dev.mousemixer.Config;
+import dev.mousemixer.client.click.ContainerClicker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.Slot;

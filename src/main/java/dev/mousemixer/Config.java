@@ -1,8 +1,8 @@
-package dev.mousewheelie;
+package dev.mousemixer;
 
-import dev.mousewheelie.client.craft.QuickCraftOverflow;
-import dev.mousewheelie.client.craft.QuickCraftPickup;
-import dev.mousewheelie.client.sort.SortMode;
+import dev.mousemixer.client.craft.QuickCraftOverflow;
+import dev.mousemixer.client.craft.QuickCraftPickup;
+import dev.mousemixer.client.sort.SortMode;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
 public final class Config {

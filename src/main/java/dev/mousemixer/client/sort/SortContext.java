@@ -1,4 +1,4 @@
-package dev.mousewheelie.client.sort;
+package dev.mousemixer.client.sort;
 
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.Slot;

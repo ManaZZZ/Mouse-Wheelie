@@ -49,7 +49,7 @@ displayTest="IGNORE_ALL_VERSION"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A NeoForge re-implementation of the Mouse Wheelie inventory tweaks: middle-click sort, scroll-to-transfer, modifier clicks (Shift / Ctrl / Alt) and automatic stack refill for both hands. Client-side only.
+A NeoForge inventory tweaks mod: middle-click sort, scroll-to-transfer, modifier clicks (Shift / Ctrl / Alt), modifier drag, and automatic stack refill for both hands. Client-side only.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

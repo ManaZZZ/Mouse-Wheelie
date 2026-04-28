@@ -1,7 +1,7 @@
-package dev.mousewheelie.client.craft;
+package dev.mousemixer.client.craft;
 
-import dev.mousewheelie.Config;
-import dev.mousewheelie.MouseWheelie;
+import dev.mousemixer.Config;
+import dev.mousemixer.MouseMixer;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.recipebook.RecipeBookComponent;
@@ -86,7 +86,7 @@ public final class QuickCraftHandler {
                 if (b.visible && b.isMouseOver(mouseX, mouseY)) return b;
             }
         } catch (ReflectiveOperationException e) {
-            MouseWheelie.LOGGER.error("Quick-craft: failed to access recipe book internals", e);
+            MouseMixer.LOGGER.error("Quick-craft: failed to access recipe book internals", e);
         }
         return null;
     }

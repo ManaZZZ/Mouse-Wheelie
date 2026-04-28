@@ -1,6 +1,6 @@
-package dev.mousewheelie.client.click;
+package dev.mousemixer.client.click;
 
-import dev.mousewheelie.Config;
+import dev.mousemixer.Config;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 

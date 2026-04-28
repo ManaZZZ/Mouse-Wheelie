@@ -1,14 +1,14 @@
-package dev.mousewheelie.client;
+package dev.mousemixer.client;
 
-import dev.mousewheelie.MouseWheelie;
-import dev.mousewheelie.client.click.ClickQueue;
-import dev.mousewheelie.client.craft.QuickCraftHandler;
-import dev.mousewheelie.client.craft.QuickCraftSession;
-import dev.mousewheelie.client.drag.ShiftDragHandler;
-import dev.mousewheelie.client.modifier.ModifierClickHandler;
-import dev.mousewheelie.client.refill.StackRefillHandler;
-import dev.mousewheelie.client.scroll.ScrollTransferHandler;
-import dev.mousewheelie.client.sort.SortHandler;
+import dev.mousemixer.MouseMixer;
+import dev.mousemixer.client.click.ClickQueue;
+import dev.mousemixer.client.craft.QuickCraftHandler;
+import dev.mousemixer.client.craft.QuickCraftSession;
+import dev.mousemixer.client.drag.ShiftDragHandler;
+import dev.mousemixer.client.modifier.ModifierClickHandler;
+import dev.mousemixer.client.refill.StackRefillHandler;
+import dev.mousemixer.client.scroll.ScrollTransferHandler;
+import dev.mousemixer.client.sort.SortHandler;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
@@ -16,8 +16,8 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 import net.neoforged.neoforge.common.NeoForge;
 
-public final class MouseWheelieClient {
-    private MouseWheelieClient() {}
+public final class MouseMixerClient {
+    private MouseMixerClient() {}
 
     public static void init(ModContainer modContainer) {
         modContainer.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
@@ -31,7 +31,7 @@ public final class MouseWheelieClient {
         bus.register(QuickCraftHandler.class);
         bus.register(ClickQueueDriver.class);
 
-        MouseWheelie.LOGGER.info("Mouse Wheelie NeoForge client handlers registered.");
+        MouseMixer.LOGGER.info("Mouse Mixer client handlers registered.");
     }
 
     /** Drives tick-based subsystems (click queue, quick-craft session) once per client tick. */

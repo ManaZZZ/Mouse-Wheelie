@@ -1,4 +1,4 @@
-package dev.mousewheelie.client.click;
+package dev.mousemixer.client.click;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;

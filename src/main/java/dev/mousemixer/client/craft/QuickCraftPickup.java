@@ -1,4 +1,4 @@
-package dev.mousewheelie.client.craft;
+package dev.mousemixer.client.craft;
 
 public enum QuickCraftPickup {
     TO_INVENTORY,

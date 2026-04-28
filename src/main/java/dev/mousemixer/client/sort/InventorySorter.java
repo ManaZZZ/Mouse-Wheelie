@@ -1,7 +1,7 @@
-package dev.mousewheelie.client.sort;
+package dev.mousemixer.client.sort;
 
-import dev.mousewheelie.client.click.ClickQueue;
-import dev.mousewheelie.client.click.ContainerClicker;
+import dev.mousemixer.client.click.ClickQueue;
+import dev.mousemixer.client.click.ContainerClicker;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;

@@ -1,4 +1,4 @@
-package dev.mousewheelie.client.sort;
+package dev.mousemixer.client.sort;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -85,7 +85,7 @@ public enum SortMode implements TranslatableEnum {
 
     @Override
     public Component getTranslatedName() {
-        return Component.translatable("mousewheelie.configuration.sortMode." + name());
+        return Component.translatable("mousemixer.configuration.sortMode." + name());
     }
 
     @FunctionalInterface
