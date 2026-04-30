@@ -1,25 +1,78 @@
+# Mouse Mixer
 
-Installation information
-=======
+A client-side Minecraft mod that enhances container and inventory management with powerful mouse interactions.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+**Minecraft 1.21 · NeoForge**
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+---
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Features
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Container Sorting
+Middle-click any container to sort its contents. Three sort modes are available: by registry ID, display name, or item quantity. The hotbar is never affected.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+### Scroll Transfer
+Scroll the mouse wheel over a slot to move stacks between a container and your inventory — no more shift-clicking one stack at a time.
+
+### Modifier Clicks
+- **Ctrl + Click** — move all matching items at once
+- **Alt + Click** — move a single item
+
+### Shift Drag
+Hold Shift and drag across slots to quick-move items in one gesture.
+
+### Stack Refill
+When the stack in your main hand or off-hand runs out, your inventory is searched automatically for a matching replacement.
+
+### Quick Craft
+Right-click a recipe in the recipe book to craft without opening a crafting table:
+- **RMB** — craft 1
+- **Shift + RMB** — craft a full stack
+- **Ctrl + Shift + RMB** — craft as many as possible
+
+---
+
+## Configuration
+
+All features can be toggled individually. The config file is generated at first launch under `config/mousemixer-client.toml`.
+
+| Option | Default | Description |
+|---|---|---|
+| Sorting | Enabled | Toggle container sorting |
+| Sort Mode | `RAW_ID` | `RAW_ID`, `ALPHABET`, or `QUANTITY` |
+| Scroll Transfer | Enabled | Toggle scroll-based item transfer |
+| Modifier Clicks | Enabled | Toggle Ctrl/Alt click behaviour |
+| Shift Drag | Enabled | Toggle shift-drag |
+| Stack Refill | Enabled | Toggle auto-refill |
+| Quick Craft | Enabled | Toggle recipe book quick crafting |
+| Click Delay | `0` | Ticks between simulated clicks (0–20) |
+
+---
+
+## Installation
+
+1. Install [NeoForge](https://neoforged.net/) for Minecraft 1.21.
+2. Download the latest release jar.
+3. Place it in your `mods/` folder.
+4. Launch the game.
+
+Mouse Mixer is a **client-side only** mod and does not need to be installed on servers.
+
+---
+
+## Building from Source
+
+```bash
+git clone https://github.com/ManaZZZ/Mouse-Wheelie.git
+
+cd Mouse-Wheelie
+./gradlew build
+```
+
+The output jar is placed in `build/libs/`.
+
+---
+
+## License
+
+This project is open source. See [LICENSE](LICENSE) for details.
